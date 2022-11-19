@@ -530,6 +530,8 @@ static const char *metaKeys = "abcdefghijklmnopqrstuvwxyz0123456789-=[]\\;',./";
             key.keyCode == UIKeyboardHIDUsageKeyboardSpacebar &&
             key.modifierFlags & UIKeyModifierControl) {
             return [self insertControlChar:' '];
+            //tags/builds/300
+
         }
     }
     return [super pressesBegan:presses withEvent:event];
