@@ -2350,6 +2350,7 @@
 			baseConfigurationReference = BB0B86CD2586FD8800208600 /* App.xcconfig */;
 			buildSettings = {
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Debug-ApplePleaseFixFB19282108";
 		};
@@ -2358,6 +2359,7 @@
 			baseConfigurationReference = BB0B86CD2586FD8800208600 /* App.xcconfig */;
 			buildSettings = {
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -2374,6 +2376,7 @@
 			baseConfigurationReference = BB0B86CD2586FD8800208600 /* App.xcconfig */;
 			buildSettings = {
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = DebugLinux;
 		};
@@ -2595,6 +2598,7 @@
 			baseConfigurationReference = BB0B86CD2586FD8800208600 /* App.xcconfig */;
 			buildSettings = {
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = ReleaseLinux;
 		};
