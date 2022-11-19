@@ -2524,6 +2524,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako.FileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 			};
 			name = "Debug-ApplePleaseFixFB19282108";
 		};
@@ -2537,6 +2538,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako.FileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 			};
 			name = Release;
 		};
@@ -2676,6 +2678,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako.FileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 			};
 			name = ReleaseLinux;
 		};
