@@ -2430,7 +2430,7 @@
 				CODE_SIGN_ENTITLEMENTS = app/FileProvider/iSHFileProvider.entitlements;
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				INFOPLIST_FILE = app/FileProvider/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER).FileProvider";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako.FileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -2518,10 +2518,12 @@
 			baseConfigurationReference = BB0B86D52587009D00208600 /* iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = app/FileProvider/iSHFileProvider.entitlements;
+				DEVELOPMENT_TEAM = M684FYCYG6;
 				INFOPLIST_FILE = app/FileProvider/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER).FileProvider";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako.FileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 			};
 			name = "Debug-ApplePleaseFixFB19282108";
 		};
@@ -2530,10 +2532,12 @@
 			baseConfigurationReference = BB0B86D52587009D00208600 /* iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = app/FileProvider/iSHFileProvider.entitlements;
+				DEVELOPMENT_TEAM = M684FYCYG6;
 				INFOPLIST_FILE = app/FileProvider/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER).FileProvider";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako.FileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 			};
 			name = Release;
 		};
@@ -2665,10 +2669,12 @@
 			baseConfigurationReference = BB0B86D52587009D00208600 /* iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = app/FileProvider/iSHFileProvider.entitlements;
+				DEVELOPMENT_TEAM = M684FYCYG6;
 				INFOPLIST_FILE = app/FileProvider/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER).FileProvider";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako.FileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 			};
 			name = ReleaseLinux;
 		};
