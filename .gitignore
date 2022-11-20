@@ -18,3 +18,7 @@ fastlane/screenshots
 fastlane/test_output
 
 e2e_out/
+.DS_Store
+app/.DS_Store
+deps/.DS_Store
+tests/.DS_Store
