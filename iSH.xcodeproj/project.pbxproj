@@ -2367,7 +2367,6 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Debug-ApplePleaseFixFB19282108";
@@ -2378,7 +2377,6 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2428,7 +2426,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako.FileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 			};
 			name = DebugLinux;
 		};
@@ -2503,8 +2500,7 @@
 				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = DebugLinux;
 		};
@@ -2518,7 +2514,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako.FileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 			};
 			name = "Debug-ApplePleaseFixFB19282108";
 		};
@@ -2532,7 +2527,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako.FileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 			};
 			name = Release;
 		};
@@ -2638,7 +2632,6 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = ReleaseLinux;
@@ -2669,7 +2662,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako.FileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 			};
 			name = ReleaseLinux;
 		};
@@ -2743,8 +2735,7 @@
 				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = ReleaseLinux;
 		};
