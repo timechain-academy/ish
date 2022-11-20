@@ -2078,6 +2078,7 @@
 		BB10E5CB248DBAB7009C7A74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = libarchive;
+			platformFilter = ios;
 			targetProxy = BB10E5CA248DBAB7009C7A74 /* PBXContainerItemProxy */;
 		};
 		BB13F7D5200ACCA8003D1C4D /* PBXTargetDependency */ = {
@@ -2107,6 +2108,7 @@
 		};
 		BB4A922824ED940C002F5A96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = BB4A922324ED9402002F5A96 /* iSH pre */;
 			targetProxy = BB4A922724ED940C002F5A96 /* PBXContainerItemProxy */;
 		};
@@ -2188,6 +2190,7 @@
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 			};
 			name = "Debug-ApplePleaseFixFB19282108";
 		};
@@ -2199,6 +2202,7 @@
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -2210,7 +2214,7 @@
 				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = macosx;
 			};
 			name = "Debug-ApplePleaseFixFB19282108";
@@ -2223,7 +2227,7 @@
 				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = macosx;
 			};
 			name = Release;
@@ -2256,6 +2260,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBFB2CDA259028DC00545EAB /* StaticLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = "Debug-ApplePleaseFixFB19282108";
 		};
@@ -2263,6 +2268,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBFB2CDA259028DC00545EAB /* StaticLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -2270,6 +2276,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBFB2CDA259028DC00545EAB /* StaticLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = "Debug-ApplePleaseFixFB19282108";
 		};
@@ -2277,6 +2284,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBFB2CDA259028DC00545EAB /* StaticLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = DebugLinux;
 		};
@@ -2284,6 +2292,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBFB2CDA259028DC00545EAB /* StaticLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -2291,6 +2300,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBFB2CDA259028DC00545EAB /* StaticLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = ReleaseLinux;
 		};
@@ -2336,12 +2346,14 @@
 		BB4A922524ED9402002F5A96 /* Debug-ApplePleaseFixFB19282108 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = "Debug-ApplePleaseFixFB19282108";
 		};
 		BB4A922624ED9402002F5A96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -2350,6 +2362,7 @@
 			baseConfigurationReference = BB0B85A42586F1CB00208600 /* ProjectDebug.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 325;
+				SDKROOT = iphoneos;
 			};
 			name = "Debug-ApplePleaseFixFB19282108";
 		};
@@ -2358,6 +2371,7 @@
 			baseConfigurationReference = BB0B85A52586F1E100208600 /* ProjectRelease.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 325;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -2388,6 +2402,7 @@
 			baseConfigurationReference = BB28C7532689522C00BDC834 /* ProjectDebugLinux.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 325;
+				SDKROOT = iphoneos;
 			};
 			name = DebugLinux;
 		};
@@ -2415,6 +2430,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBEF192C26806546001225BD /* AppLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = DebugLinux;
 		};
@@ -2468,6 +2484,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBFB2CDA259028DC00545EAB /* StaticLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = DebugLinux;
 		};
@@ -2475,12 +2492,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBFB2CDA259028DC00545EAB /* StaticLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = DebugLinux;
 		};
 		BB7F620F2688EAB5003C0220 /* DebugLinux */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = DebugLinux;
 		};
@@ -2492,6 +2511,7 @@
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 			};
 			name = DebugLinux;
 		};
@@ -2503,7 +2523,7 @@
 				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = macosx;
 			};
 			name = DebugLinux;
@@ -2596,6 +2616,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBEF192C26806546001225BD /* AppLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = "Debug-ApplePleaseFixFB19282108";
 		};
@@ -2603,6 +2624,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBEF192C26806546001225BD /* AppLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -2629,6 +2651,7 @@
 			baseConfigurationReference = BB28C7522689522700BDC834 /* ProjectReleaseLinux.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 325;
+				SDKROOT = iphoneos;
 			};
 			name = ReleaseLinux;
 		};
@@ -2656,6 +2679,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBEF192C26806546001225BD /* AppLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = ReleaseLinux;
 		};
@@ -2708,6 +2732,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBFB2CDA259028DC00545EAB /* StaticLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = ReleaseLinux;
 		};
@@ -2715,12 +2740,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBFB2CDA259028DC00545EAB /* StaticLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = ReleaseLinux;
 		};
 		BBEF19B526806D1F001225BD /* ReleaseLinux */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = ReleaseLinux;
 		};
@@ -2732,6 +2759,7 @@
 				DEVELOPMENT_TEAM = M684FYCYG6;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 			};
 			name = ReleaseLinux;
 		};
@@ -2743,7 +2771,7 @@
 				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = macosx;
 			};
 			name = ReleaseLinux;
@@ -2752,6 +2780,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBFB2CDA259028DC00545EAB /* StaticLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = "Debug-ApplePleaseFixFB19282108";
 		};
@@ -2759,6 +2788,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBFB2CDA259028DC00545EAB /* StaticLib.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
