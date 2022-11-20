@@ -4,7 +4,9 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>$(PRODUCT_APP_GROUP_IDENTIFIER)</string>
+		<string>group.bitcoincore.app</string>
+		<string>group.dev.bitcoincore.ios</string>
+		<string>group.dev.bitcoincore.mako</string>
 	</array>
 </dict>
 </plist>
