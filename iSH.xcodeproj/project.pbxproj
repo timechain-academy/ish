@@ -2371,6 +2371,7 @@
 			baseConfigurationReference = BB0B86CD2586FD8800208600 /* App.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = M684FYCYG6;
+				INFOPLIST_KEY_CFBundleDisplayName = mako;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2382,6 +2383,7 @@
 			baseConfigurationReference = BB0B86CD2586FD8800208600 /* App.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = M684FYCYG6;
+				INFOPLIST_KEY_CFBundleDisplayName = mako;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2401,6 +2403,7 @@
 			baseConfigurationReference = BB0B86CD2586FD8800208600 /* App.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = M684FYCYG6;
+				INFOPLIST_KEY_CFBundleDisplayName = mako;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2412,7 +2415,6 @@
 			baseConfigurationReference = BB0B86CD2586FD8800208600 /* App.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = M684FYCYG6;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako.linux;
 			};
 			name = DebugLinux;
@@ -2617,7 +2619,6 @@
 			baseConfigurationReference = BB0B86CD2586FD8800208600 /* App.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = M684FYCYG6;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako.linux;
 			};
 			name = "Debug-ApplePleaseFixFB19282108";
@@ -2627,7 +2628,6 @@
 			baseConfigurationReference = BB0B86CD2586FD8800208600 /* App.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = M684FYCYG6;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako.linux;
 			};
 			name = Release;
@@ -2645,6 +2645,7 @@
 			baseConfigurationReference = BB0B86CD2586FD8800208600 /* App.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = M684FYCYG6;
+				INFOPLIST_KEY_CFBundleDisplayName = mako;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2656,7 +2657,6 @@
 			baseConfigurationReference = BB0B86CD2586FD8800208600 /* App.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = M684FYCYG6;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.mako.linux;
 			};
 			name = ReleaseLinux;
